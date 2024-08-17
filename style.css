@@ -1,0 +1,1021 @@
+body {
+   background: radial-gradient(circle at 24.1% 68.8%, rgb(32, 32, 32) 0%, rgb(0, 0, 0) 99.4%);
+    display: block;
+    
+    }
+
+
+.nav {
+    display: flex;
+    padding: 0px 195px;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 42px;
+    }
+.nav p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+.nav .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 37px;
+    list-style: none;
+    }
+.nav .menu li a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    }
+
+/*____________________________________________________________________________________________________________________________*/
+
+
+
+.presentation {
+    display: flex;
+    padding: 192px 195px 8px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 48px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    margin-bottom: 0px; /* Assicurati che ci sia spazio sotto la presentazione */
+
+    }
+    
+.presentation p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100; /* Imposta il carattere light per tutto il paragrafo */
+    line-height: normal;
+    
+    }
+    .highlight {
+    display: inline; /* Imposta inline per evitare interruzioni di riga */
+    font-weight: 900; /* Imposta il carattere bold per la parola "SARA" */
+    }
+
+
+.presentation h1 {
+    
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 0; /* Assicura che non ci siano margini extra */
+    }
+    
+.intro {
+    font-size: 32px;
+    font-weight: 100; 
+    display: block; /* Assicura che il testo venga visualizzato su una nuova riga */
+    }
+    
+    .highlightt {
+    font-size: 64px;
+    font-weight: 500; 
+    display: inline; /* Mantiene il testo e il punto sulla stessa riga */
+    }
+    
+.dot {
+    font-size: 74px;
+    font-weight: 700; 
+    color: orange; /* Colore arancione per il punto */
+    vertical-align: middle; /* Allinea il punto al centro della linea di testo */
+    display: inline; /* Mantiene il punto nella stessa riga di "UX UI DESIGNER" */
+    }
+
+
+
+/*____________________________________________________________________________________________________________________________*/
+
+.social{
+    display: flex;
+    padding: 0px 194px;
+    align-items: left;
+    margin-bottom: 200px;
+    gap: 16px;
+    }
+
+/*____________________________________________________________________________________________________________________________*/
+
+/* progetto 1 */
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+
+  
+.progetto1 {
+    display: flex;
+    height: 802px;
+    padding: 16px 193px 16px 193px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #191919;
+}
+
+.progetto1 .LayoutN {
+    display: flex;
+    height: 720px;
+    padding: 68px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+.scrollN {
+    width: 196px;
+    height: 11px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+
+.xoxoN h1 {
+    width: 194px;
+    margin-top: -22px;
+    flex-shrink: 0;
+    color: #FF488F;
+    font-family: "Grand Cru";
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    
+}
+
+.description p {
+    width: 429px;
+    color: #EEE;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+
+}
+
+
+.view-project-btn {
+    display: inline-block;
+    padding: 10px 34px;
+    background-color: #2C2B2B; /* Colore di sfondo del bottone */
+    color: #FFF; /* Colore del testo del bottone */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    border-radius: 2px; 
+    margin-bottom: 0px; /* Spazio sotto il bottone */
+    margin-top: 42px;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore di sfondo */
+}
+
+.view-project-btn:hover {
+    background-color: #FF488F; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+.GifN {
+    width: 265px;
+    height: 144px;
+    flex-shrink: 0;
+    border-radius: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.gif-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.frame2 {
+display: flex;
+padding: 68px 0px;
+flex-direction: wrap;
+align-items: flex-end;
+gap: 44px;
+}
+
+.arrowRightN{
+display: flex;
+width: 24px;
+height: 23px;
+padding: 5.75px 0px;
+justify-content: center;
+align-items: center;
+opacity: 0%;
+}
+
+.arrowimg{
+width: 6px;
+height: 11.5px;
+flex-shrink: 0;
+}
+
+.mobileP1{
+    display:none;
+}
+
+.imgN{
+width: 530px;
+height: 379px;
+}
+
+.xoxoimage{
+width: 530px;
+height: 379px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(xoxo.png) lightgray -63.267px -50.41px / 129.637% 133.218% no-repeat;
+box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
+
+}
+/*____________________________________________________________________________________________________________________________*/
+
+/* progetto 2 */
+
+.progetto2 {
+    display: flex;
+    height: 802px;
+    padding: 16px 193px 16px 193px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #5D7D7E;;
+}
+
+.progetto2 .LayoutN {
+    display: flex;
+    height: 720px;
+    padding: 68px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+.scrollN {
+    width: 196px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.sunnee h1 {
+    width: 194px;
+    margin-top: -22px;
+    flex-shrink: 0;
+    color: #F9DCAF;
+    font-family: "Grand Cru";
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.description p {
+    width: 429px;
+    color: #EEE;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+
+}
+   
+
+.view-sunnee-btn {
+    display: inline-block;
+    padding: 10px 34px;
+    background-color: #749D9E; /* Colore di sfondo del bottone */
+    color: #FFF; /* Colore del testo del bottone */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    border-radius: 2px; 
+    margin-bottom: 0px; /* Spazio sotto il bottone */
+    margin-top: 42px;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore di sfondo */
+}
+
+.view-sunnee-btn:hover {
+    background-color: #F9DCAF; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+.GifN {
+    width: 265px;
+    height: 144px;
+    flex-shrink: 0;
+    border-radius: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.gif-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.frame2 {
+display: flex;
+padding: 68px 0px;
+flex-direction: column;
+align-items: flex-end;
+gap: 44px;
+}
+
+.arrowRightN{
+display: flex;
+width: 24px;
+height: 23px;
+padding: 5.75px 0px;
+justify-content: center;
+align-items: center;
+}
+
+.arrowimg{
+width: 6px;
+height: 11.5px;
+flex-shrink: 0;
+}
+
+.mobileP2{
+    display:none;
+}
+
+.imgN2{
+width: 530px;
+height: 379px;
+}
+
+.sunneimage{
+width: 530px;
+height: 379px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(sunne.png) lightgray 50% / cover no-repeat;
+box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
+
+}
+
+/*____________________________________________________________________________________________________________________________*/
+
+/* progetto 3 */
+
+.progetto3 {
+    display: flex;
+    height: 802px;
+    padding: 16px 193px 16px 193px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #404040;;
+}
+
+.progetto3 .LayoutN {
+    display: flex;
+    height: 720px;
+    padding: 68px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+.scrollN {
+    width: 196px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.tequila h1 {
+    width: 194px;
+    margin-top: -22px;
+    flex-shrink: 0;
+    color: #67E9F3;
+    font-family: "Grand Cru";
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.description p {
+    width: 429px;
+    color: #EEE;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+
+}
+   
+
+.view-tequila-btn {
+    display: inline-block;
+    padding: 10px 34px;
+    background-color: #343333; /* Colore di sfondo del bottone */
+    color: #FFF; /* Colore del testo del bottone */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    border-radius: 2px; 
+    margin-bottom: 0px; /* Spazio sotto il bottone */
+    margin-top: 42px;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore di sfondo */
+}
+
+.view-tequila-btn:hover {
+    background-color: #67E9F3; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+.GifN {
+    width: 265px;
+    height: 144px;
+    flex-shrink: 0;
+    border-radius: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.gif-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.frame2 {
+display: flex;
+padding: 68px 0px;
+flex-direction: column;
+align-items: flex-end;
+gap: 44px;
+}
+
+.arrowRightN{
+display: flex;
+width: 24px;
+height: 23px;
+padding: 5.75px 0px;
+justify-content: center;
+align-items: center;
+}
+
+.arrowimg{
+width: 6px;
+height: 11.5px;
+flex-shrink: 0;
+}
+.mobileP3{
+    display:none;
+}
+
+
+.imgN3{
+width: 530px;
+height: 379px;
+}
+
+.tequilaimage{
+width: 530px;
+height: 379px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(tequila.png) lightgray 50% / cover no-repeat;
+box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
+}
+
+/*____________________________________________________________________________________________________________________________*/
+
+/* progetto 4 */
+
+.progetto4 {
+    display: flex;
+    height: 802px;
+    padding: 16px 193px 16px 193px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #A5A891;
+}
+
+.progetto4 .LayoutN {
+    display: flex;
+    height: 720px;
+    padding: 68px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+.scrollN {
+    width: 196px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.ecodream h1 {
+    width: 194px;
+    margin-top: -22px;
+    flex-shrink: 0;
+    color: #364222;
+    font-family: "Grand Cru";
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.description p {
+    width: 429px;
+    color: #EEE;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+
+}
+   
+
+.view-ecodream-btn {
+    display: inline-block;
+    padding: 10px 34px;
+    background-color: #838f6f; /* Colore di sfondo del bottone */
+    color: #FFF; /* Colore del testo del bottone */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    border-radius: 2px; 
+    margin-bottom: 0px; /* Spazio sotto il bottone */
+    margin-top: 42px;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore di sfondo */
+}
+
+.view-ecodream-btn:hover {
+    background-color: #717B60; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+.GifN {
+    width: 265px;
+    height: 144px;
+    flex-shrink: 0;
+    border-radius: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.gif-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.frame2 {
+display: flex;
+padding: 68px 0px;
+flex-direction: column;
+align-items: flex-end;
+gap: 44px;
+}
+
+.arrowRightN{
+display: flex;
+width: 24px;
+height: 23px;
+padding: 5.75px 0px;
+justify-content: center;
+align-items: center;
+}
+
+.arrowimg{
+width: 6px;
+height: 11.5px;
+flex-shrink: 0;
+}
+
+.mobileP4{
+    display:none;
+}
+
+
+.imgN4{
+width: 530px;
+height: 379px;
+}
+
+.ecodreamimage{
+width: 530px;
+height: 379px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(ecodream.png) lightgray 50% / cover no-repeat;
+box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
+}
+
+/*____________________________________________________________________________________________________________________________*/
+
+/* progetto 5 */
+
+.progetto5 {
+    display: flex;
+    height: 802px;
+    padding: 16px 193px 16px 193px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #1D1D1D;
+}
+
+.progetto5 .LayoutN {
+    display: flex;
+    height: 720px;
+    padding: 68px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+.scrollN {
+    width: 196px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.hmi h1 {
+    width: 194px;
+    margin-top: -22px;
+    flex-shrink: 0;
+    color: #FFB510;
+    font-family: "Grand Cru";
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.description p {
+    width: 429px;
+    color: #EEE;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+
+}
+   
+
+.view-hmi-btn {
+    display: inline-block;
+    padding: 10px 34px;
+    background-color: #2C2B2B; /* Colore di sfondo del bottone */
+    color: #FFF; /* Colore del testo del bottone */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    border-radius: 2px; 
+    margin-bottom: 0px; /* Spazio sotto il bottone */
+    margin-top: 42px;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore di sfondo */
+}
+
+.view-hmi-btn:hover {
+    background-color: #FFB510; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+.GifN {
+    width: 265px;
+    height: 144px;
+    flex-shrink: 0;
+    border-radius: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.gif-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.frame2 {
+display: flex;
+padding: 68px 0px;
+flex-direction: column;
+align-items: flex-end;
+gap: 44px;
+}
+
+.arrowRightN{
+display: flex;
+width: 24px;
+height: 23px;
+padding: 5.75px 0px;
+justify-content: center;
+align-items: center;
+}
+
+.arrowimg{
+width: 6px;
+height: 11.5px;
+flex-shrink: 0;
+}
+
+.mobileP5{
+    display:none;
+}
+
+.imgN5{
+width: 530px;
+height: 379px;
+}
+
+.hmiimage{
+width: 530px;
+height: 379px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(hmi.png) lightgray 50% / cover no-repeat;
+box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
+}
+
+/*____________________________________________________________________________________________________________________________*/
+
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 52px;
+  }
+  .prev {
+   margin-left: 52px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+/*____________________________________________________________________________________________________________________________*/
+
+    /* Media queries per aumentare i margini */
+
+    @media (min-width: 1921px) and (max-width: 3840px) {
+    .nav,
+    .presentation,
+    .social,
+    .button,
+    .scroll,
+    .lotti,
+    .progetto1,
+    .progetto2,
+    .progetto3,
+    .progetto4,
+    .progetto5
+     {
+        padding-left: calc(195px + ((100vw - 1920px) / 3));
+        padding-right: calc(195px + ((100vw - 1920px) / 3));
+
+    }
+    }
+
+/*____________________________________________________________________________________________________________________________*/
+
+/* Media queries per dispositivi mobili */
+
+@media (max-width: 768px) {
+    /* Navbar */
+
+
+    
+
+    .nav {
+        padding: 0 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .nav p {
+        font-size: 14px;
+    }
+
+    .nav .menu {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav .menu li a {
+        font-size: 14px;
+    }
+
+    /* Sezione Presentazione */
+    .presentation {
+        padding: 100px 20px 20px;
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+
+    .presentation p,
+    .presentation h1 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .intro {
+        font-size: 24px;
+    }
+
+    .highlightt {
+        font-size: 48px;
+    }
+
+    .dot {
+        font-size: 54px;
+    }
+
+    .social {
+        padding: 0 20px;
+        margin-bottom: 100px;
+    }
+    .mobileP1, .mobileP2, .mobileP3, .mobileP4, .mobileP5{
+        display:flex;
+    }
+    .progetto1, .progetto2, .progetto3, .progetto4, .progetto5 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        height: auto ; /* Adatta l'altezza al contenuto */
+        
+    }
+
+    /* Scroll allineato a sinistra */
+    .scrollN {
+        width: 100%;
+        margin-bottom: 14px; /* Spazio tra lo scroll e l'immagine */
+    }
+
+    /* Immagine che occupa tutta la larghezza */
+    .imgN, .imgN2, .imgN3, .imgN4, .imgN5 {
+        width: 100%;
+        height: auto; 
+    }
+
+    .xoxoimage, .sunneimage, .tequilaimage, .ecodreamimage, .hmiimage {
+        width: 328px; /* Riduci la larghezza per schermi più piccoli */
+        height: 222px; /* Riduci l'altezza di conseguenza */
+        background-size: 150% 150%; /* Aumenta la dimensione di sfondo per adattarsi meglio */
+        box-shadow: 10px -1px 15px 4px rgba(44, 43, 43, 0.25); /* Riduci l'ombra */
+    }
+
+    /* Rimuovere la GIF nella versione mobile */
+    .GifN {
+        display: none; /* Nascondi la GIF */
+    }
+
+    /* Testo allineato a sinistra e in colonna */
+    .description p,
+    .view-project-btn, .view-sunnee-btn, .view-tequila-btn, .view-ecodream-btn, .view-hmi-btn {
+        width: 100%;
+        max-width: 300px; /* Imposta una larghezza massima per evitare che diventino troppo larghi */
+        text-align: left; /* Allinea il testo e i bottoni a sinistra */
+        margin-top: 4px;
+        font-size: 14px; /* Imposta una dimensione di font appropriata per mobile */
+        box-sizing: border-box; /* Include il padding e il bordo nella larghezza totale */
+        
+    }
+
+
+    .frame2 {
+        display: none;
+    }
+
+    
+    .xoxoN h1, .sunnee h1, .tequila h1, .ecodream h1, .hmi h1 {
+        margin-top: 12px;
+        font-size: 42px; /* Imposta una dimensione di font appropriata per mobile */
+        margin-bottom: -14px;
+    }
+    
+
+    .progetto1 .LayoutN {
+        
+        height: 520px; 
+    }
+    
+    .progetto2 .LayoutN {
+        
+        height: 520px; 
+    }
+
+    .progetto3 .LayoutN {
+        
+        height: 520px; 
+    }
+
+    .progetto4 .LayoutN {
+        
+        height: 520px; 
+    }
+
+    .progetto5 .LayoutN {
+        
+        height: 520px; 
+    }
+
+
+    @keyframes float {
+    }
+}

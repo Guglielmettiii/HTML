@@ -1,0 +1,126 @@
+/* Importa font */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
+/* Reset di margini e padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Imposta altezza per html e body */
+html, body {
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sfondo con gradiente */
+body {
+  background: linear-gradient(left, #BADEA6, #B3DEA6 50%, #BADEA6);
+}
+
+/* Sezione sociale con regole specifiche */
+.social-section {
+  margin: 0;
+  width: 360px;
+  font-size: 24px; /* Ridimensiona il font a 24px */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Allinea i bottoni a sinistra */
+  gap: 8px; /* Spazio tra i bottoni */
+}
+
+.social-link {
+  display: inline-block;
+  position: relative;
+  width: 50px; /* Ridimensiona la larghezza a 50px */
+  height: 50px; /* Ridimensiona l'altezza a 50px */
+  margin: 8px;
+}
+
+article {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  box-shadow: 0 0 6px -2px #000, 0 0 45px -20px #000;
+  color: #fff;
+  line-height: 50px; /* Allinea il testo verticalmente */
+  transform: perspective(300px) rotateY(0deg);
+  transition: transform 0.4s linear, background-color 0s linear 0.2s, color 0s linear 0.2s;
+  text-align: center; /* Allinea il testo all'interno del contenitore */
+}
+.social-link:nth-child(1):hover article {
+  background-color: #1769ff;
+}
+
+.social-link:nth-child(2):hover article {
+  background-color: #0a66c2;
+}
+
+.social-link:nth-child(3):hover article {
+  background-color: #ea4c89;
+}
+
+.social-link:hover article {
+  transform: perspective(300px) rotateY(180deg);
+  color: #eee;
+  transition: transform 0.2s linear, background-color 0s linear 0.1s, color 0s linear 0.1s;
+}
+
+span {
+  transition: transform 0s linear 0.2s, text-shadow 0s linear 0.2s;
+  display: block;
+  -webkit-font-smoothing: antialiased; /* Supporto per Safari e Chrome */
+  -moz-osx-font-smoothing: grayscale; /* Supporto per Firefox su OS X */
+  text-align: center; /* Allinea il testo al centro */
+}
+
+.social-link:hover span {
+  transition: transform 0s linear 0.1s, text-shadow 0s linear 0.1s;
+  transform: scale(-1, 1);
+  text-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+}
+
+@font-face {
+  font-family: "SSSocial";
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/ss-social-regular.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/ss-social-regular.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/ss-social-regular.woff') format('woff'),
+       url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/ss-social-regular.ttf') format('truetype'),
+       url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/ss-social-regular.svg#SSSocialRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Questo triggera un redraw in IE per correggere la renderizzazione di :before in IE8 */
+html:hover [class^="ss-"] { zoom: 1; }
+
+.ss-icon, .ss-icon.ss-social, .ss-icon.ss-social-circle,
+[class^="ss-"]:before, [class*=" ss-"]:before,
+[class^="ss-"][class*=" ss-social"]:before, [class*=" ss-"][class*=" ss-social"]:before,
+[class^="ss-"].right:after, [class*=" ss-"].right:after,
+[class^="ss-"][class*=" ss-social"].right:after, [class*=" ss-"][class*=" ss-social"].right:after {
+  font-family: "SSSocial";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.ss-icon.ss-social-circle,
+[class^="ss-"].ss-social-circle:before, [class*=" ss-"].ss-social-circle:before,
+[class^="ss-"].ss-social-circle.right:after, [class*=" ss-"].ss-social-circle.right:after {
+  font-weight: bold;
+}
+
+[class^="ss-"].right:before,
+[class*=" ss-"].right:before { display: none; content: ''; }

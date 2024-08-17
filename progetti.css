@@ -1,0 +1,515 @@
+.progetto2 {
+    display: flex;
+    height: 802px;
+    padding: 134px 193px 134px 193px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #5D7D7E;;
+}
+
+.progetto2 .LayoutN {
+    display: flex;
+    height: 720px;
+    padding: 68px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+.scrollN {
+    width: 196px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.sunnee h1 {
+    width: 194px;
+    margin-top: -22px;
+    flex-shrink: 0;
+    color: #F9DCAF;
+    font-family: "Grand Cru";
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.description p {
+    width: 429px;
+    color: #EEE;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+
+}
+   
+
+.view-sunnee-btn {
+    display: inline-block;
+    padding: 10px 34px;
+    background-color: #749D9E; /* Colore di sfondo del bottone */
+    color: #FFF; /* Colore del testo del bottone */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    border-radius: 2px; 
+    margin-bottom: 0px; /* Spazio sotto il bottone */
+    margin-top: 42px;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore di sfondo */
+}
+
+.view-sunnee-btn:hover {
+    background-color: #F9DCAF; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+.GifN {
+    width: 265px;
+    height: 144px;
+    flex-shrink: 0;
+    border-radius: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.gif-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.frame2 {
+display: flex;
+padding: 68px 0px;
+flex-direction: column;
+align-items: flex-end;
+gap: 44px;
+}
+
+.arrowRightN{
+display: flex;
+width: 24px;
+height: 23px;
+padding: 5.75px 0px;
+justify-content: center;
+align-items: center;
+}
+
+.arrowimg{
+width: 6px;
+height: 11.5px;
+flex-shrink: 0;
+}
+
+.imgN2{
+width: 530px;
+height: 379px;
+}
+
+.sunneimage{
+width: 530px;
+height: 379px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(sunne.png) lightgray 50% / cover no-repeat;
+box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
+}
+
+/*____________________________________________________________________________________________________________________________*/
+
+
+.progetto3 {
+    display: flex;
+    height: 802px;
+    padding: 134px 193px 134px 193px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #404040;;
+}
+
+.progetto3 .LayoutN {
+    display: flex;
+    height: 720px;
+    padding: 68px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+.scrollN {
+    width: 196px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.tequila h1 {
+    width: 194px;
+    margin-top: -22px;
+    flex-shrink: 0;
+    color: #67E9F3;
+    font-family: "Grand Cru";
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.description p {
+    width: 429px;
+    color: #EEE;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+
+}
+   
+
+.view-tequila-btn {
+    display: inline-block;
+    padding: 10px 34px;
+    background-color: #343333; /* Colore di sfondo del bottone */
+    color: #FFF; /* Colore del testo del bottone */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    border-radius: 2px; 
+    margin-bottom: 0px; /* Spazio sotto il bottone */
+    margin-top: 42px;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore di sfondo */
+}
+
+.view-tequila-btn:hover {
+    background-color: #67E9F3; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+.GifN {
+    width: 265px;
+    height: 144px;
+    flex-shrink: 0;
+    border-radius: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.gif-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.frame2 {
+display: flex;
+padding: 68px 0px;
+flex-direction: column;
+align-items: flex-end;
+gap: 44px;
+}
+
+.arrowRightN{
+display: flex;
+width: 24px;
+height: 23px;
+padding: 5.75px 0px;
+justify-content: center;
+align-items: center;
+}
+
+.arrowimg{
+width: 6px;
+height: 11.5px;
+flex-shrink: 0;
+}
+
+.imgN3{
+width: 530px;
+height: 379px;
+}
+
+.tequilaimage{
+width: 530px;
+height: 379px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(tequila.png) lightgray 50% / cover no-repeat;
+box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
+}
+
+/*____________________________________________________________________________________________________________________________*/
+
+
+.progetto4 {
+    display: flex;
+    height: 802px;
+    padding: 134px 193px 134px 193px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #A5A891;
+}
+
+.progetto4 .LayoutN {
+    display: flex;
+    height: 720px;
+    padding: 68px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+.scrollN {
+    width: 196px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.ecodream h1 {
+    width: 194px;
+    margin-top: -22px;
+    flex-shrink: 0;
+    color: #364222;
+    font-family: "Grand Cru";
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.description p {
+    width: 429px;
+    color: #EEE;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+
+}
+   
+
+.view-ecodream-btn {
+    display: inline-block;
+    padding: 10px 34px;
+    background-color: #838f6f; /* Colore di sfondo del bottone */
+    color: #FFF; /* Colore del testo del bottone */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    border-radius: 2px; 
+    margin-bottom: 0px; /* Spazio sotto il bottone */
+    margin-top: 42px;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore di sfondo */
+}
+
+.view-ecodream-btn:hover {
+    background-color: #717B60; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+.GifN {
+    width: 265px;
+    height: 144px;
+    flex-shrink: 0;
+    border-radius: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.gif-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.frame2 {
+display: flex;
+padding: 68px 0px;
+flex-direction: column;
+align-items: flex-end;
+gap: 44px;
+}
+
+.arrowRightN{
+display: flex;
+width: 24px;
+height: 23px;
+padding: 5.75px 0px;
+justify-content: center;
+align-items: center;
+}
+
+.arrowimg{
+width: 6px;
+height: 11.5px;
+flex-shrink: 0;
+}
+
+.imgN4{
+width: 530px;
+height: 379px;
+}
+
+.ecodreamimage{
+width: 530px;
+height: 379px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(ecodream.png) lightgray 50% / cover no-repeat;
+box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
+}
+
+/*____________________________________________________________________________________________________________________________*/
+
+
+
+.progetto5 {
+    display: flex;
+    height: 802px;
+    padding: 134px 193px 134px 193px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #1D1D1D;
+}
+
+.progetto5 .LayoutN {
+    display: flex;
+    height: 720px;
+    padding: 68px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+.scrollN {
+    width: 196px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.hmi h1 {
+    width: 194px;
+    margin-top: -22px;
+    flex-shrink: 0;
+    color: #FFB510;
+    font-family: "Grand Cru";
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.description p {
+    width: 429px;
+    color: #EEE;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+
+}
+   
+
+.view-hmi-btn {
+    display: inline-block;
+    padding: 10px 34px;
+    background-color: #2C2B2B; /* Colore di sfondo del bottone */
+    color: #FFF; /* Colore del testo del bottone */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    border-radius: 2px; 
+    margin-bottom: 0px; /* Spazio sotto il bottone */
+    margin-top: 42px;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore di sfondo */
+}
+
+.view-hmi-btn:hover {
+    background-color: #FFB510; /* Colore di sfondo al passaggio del mouse */
+}
+
+
+.GifN {
+    width: 265px;
+    height: 144px;
+    flex-shrink: 0;
+    border-radius: 2px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.gif-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.frame2 {
+display: flex;
+padding: 68px 0px;
+flex-direction: column;
+align-items: flex-end;
+gap: 44px;
+}
+
+.arrowRightN{
+display: flex;
+width: 24px;
+height: 23px;
+padding: 5.75px 0px;
+justify-content: center;
+align-items: center;
+}
+
+.arrowimg{
+width: 6px;
+height: 11.5px;
+flex-shrink: 0;
+}
+
+.imgN5{
+width: 530px;
+height: 379px;
+}
+
+.hmiimage{
+width: 530px;
+height: 379px;
+flex-shrink: 0;
+border-radius: 2px;
+background: url(hmi.png) lightgray 50% / cover no-repeat;
+box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
+}
+
+/*____________________________________________________________________________________________________________________________*/

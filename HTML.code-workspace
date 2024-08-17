@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../prrova css grig"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "HTML"
+    }
+}
