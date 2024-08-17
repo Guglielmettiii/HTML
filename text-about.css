@@ -182,7 +182,9 @@ html, body {
 @media (max-width: 768px) {
   .role {
     margin-top: 40px; /* Riduci il margine superiore */
+    margin-bottom: 12px;
     height: 24px; /* Riduci l'altezza della role */
+    
   }
 
   .role .special-paragraph {

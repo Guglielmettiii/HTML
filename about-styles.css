@@ -189,7 +189,6 @@ nav {
 .do {
     background: #191919;
     padding: 132px 195px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,8 +276,11 @@ nav {
         padding-right: calc(195px + ((100vw - 1920px) / 3));
     }
 
-    
+    .splineSection {
 
+        left: 700px;
+
+    }
 }
 
 
@@ -415,7 +417,11 @@ nav {
     .contact-icon:hover {
         color: #FFF !important; /* Mantiene il colore bianco delle icone al passaggio del mouse, con !important per forzare */
     }
-    
+    .splineSection {
+
+    display: none;
+    }
+
     
 }
 
@@ -463,7 +469,8 @@ nav {
     }
 
     .skills-content {
-        padding: 60px 20px;
+        padding: 10px 20px;
+        margin-bottom: 10px;
     }
 
     .skills-content h2 {
@@ -492,6 +499,11 @@ nav {
 
     .contact-icon {
         font-size: 24px;
+    }
+
+    .do{
+    display:none;
+    
     }
 }
 
