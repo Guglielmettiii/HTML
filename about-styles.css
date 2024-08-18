@@ -163,7 +163,6 @@ nav {
     padding: 192px 195px 8px;
     align-items: flex-start;
     align-content: flex-start;
-    gap: 48px;
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 200px; 
@@ -417,8 +416,8 @@ nav {
     .contact-icon:hover {
         color: #FFF !important; /* Mantiene il colore bianco delle icone al passaggio del mouse, con !important per forzare */
     }
-    .splineSection {
 
+    .splineSection {
     display: none;
     }
 
