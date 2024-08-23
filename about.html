@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <meta name="description" content="Sara Guglielmetti - UX/UI Designer portfolio">
+    <meta name="keywords" content="UX, UI, Design, Portfolio, Sara Guglielmetti">
+    <meta name="author" content="Sara Guglielmetti">
+    
+    <title>Sara Guglielmetti - About Me</title>
 
     <!-- foglio CSS -->
     <link rel="stylesheet" href="about-styles.css">
@@ -53,11 +57,12 @@
             });
         }
     </script>
-    <div class="presentation">
-        
-        <div class="splineSection">
-             <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.15/build/spline-viewer.js"></script>
-             <spline-viewer url="https://prod.spline.design/C4MX-jiubc19M0Fc/scene.splinecode"></spline-viewer>
+
+
+    <section class="presentation">
+        <div class="splineSection2">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.15/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/C4MX-jiubc19M0Fc/scene.splinecode"></spline-viewer>
         </div>
 
         <div class="container">
@@ -74,51 +79,74 @@
         </div>
 
         <div class="content">
-        <div class="about-paragraph">
-            <p>I’m a UX UI designer based in Italy. I'm available for <br>full-time roles and freelance projects.</p>
-        </div>
-        </div>
-    </div>
-        
-    
-        <div class="skills-content">
-                <h2>WHAT MY DESIGN SKILLS INCLUDED?</h2>
-                <p>With a background in Human-Centered Design and a deep knowledge of Accessibility, I integrate Design Thinking methodologies to develop solutions oriented to user needs. My experience in Visual Design combines with the ability to create low and high fidelity wireframes, ensuring a coherent and well-structured design process. My knowledge of HTML and CSS allows me to communicate with technical teams and translate ideas into functional designs. Additionally, my background in 3D design enriches my perspective. Finally, usability testing ensures that each design meets usability standards and meets user expectations.</p>
-        </div>
-        
-
-
-        <div class="do">
-            <img src="do.png" alt=do>
-        </div>
-
-
-        <div class="contact-me">
-            <div class="contact-me-content">
-                <div class="contact-text">
-                    <h1>We're meant <br> to work together.</h1>
-                    <p>Contact me for full-time jobs, freelance projects <br class="break-desktop"> 
-                       or just to say hello 👋 <br>
-                    </p>
-                </div>
-                <div class="contact-icons">
-                    <a href="mailto:saraguglielmetti0@gmail.com" class="contact-icon">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-                    <a href="https://www.behance.net/saragugliel" class="contact-icon">
-                        <i class="fa-brands fa-behance"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/sara-guglielmetti/" class="contact-icon">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a href="https://discord.com/users/516554440040513536" class="contact-icon">
-                        <i class="fa-brands fa-discord"></i>
-                    </a>
-                </div>
+            <div class="about-paragraph">
+                <p>I’m a UX UI designer based in Italy. I'm available for <br>full-time roles and freelance projects.</p>
             </div>
         </div>
+    </section>
+    
+    <!-- Sezione Competenze -->
+    <section class="skills-content">
+        <h2>WHAT MY DESIGN SKILLS INCLUDE?</h2>
+        <p>With a background in Human-Centered Design and a deep knowledge of Accessibility, I integrate Design Thinking methodologies to develop solutions oriented to user needs. My experience in Visual Design combines with the ability to create low and high fidelity wireframes, ensuring a coherent and well-structured design process. My knowledge of HTML and CSS allows me to communicate with technical teams and translate ideas into functional designs. Additionally, my background in 3D design enriches my perspective. Finally, usability testing ensures that each design meets usability standards and meets user expectations.</p>
+    </section>
 
+    <section class="skills-tools">
+            <h3>TOOLS</h3>
+            <p>
+                I use a range of tools for design and development, including:
+                <strong>Figma</strong>, <strong>Spline</strong>, and <strong>Photoshop</strong>. 
+                I also have experience with <strong>Visual Studio Code</strong> for <strong>HTML & CSS</strong> for coding and web design.
+            </p>
+    </section>
+    
+    <!-- Sezione Immagine -->
+    <section class="do">
+        <img src="do.png" alt="Design Image">
+    </section>
 
-        
+    <!-- Sezione Contatti -->
+    <section class="contact-me">
+        <div class="contact-me-content">
+            <div class="contact-text">
+                <h1>We're meant <br> to work together.</h1>
+                <p>Contact me for full-time jobs, freelance projects <br class="break-desktop"> 
+                    or just to say hello 👋 <br>
+                </p>
+            </div>
+            <div class="contact-icons">
+                <a href="mailto:saraguglielmetti0@gmail.com" class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://www.behance.net/saragugliel" class="contact-icon">
+                    <i class="fa-brands fa-behance"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sara-guglielmetti/" class="contact-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://discord.com/users/516554440040513536" class="contact-icon">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function copyEmail() {
+            const email = "saraguglielmetti0@gmail.com";
+            const emailButton = document.getElementById('emailButton');
+            const emailTextDesktop = emailButton.querySelector('.desktop');
+            const emailTextMobile = emailButton.querySelector('.mobile');
+    
+            navigator.clipboard.writeText(email).then(() => {
+                emailTextDesktop.textContent = "Email Copiata!";
+                emailTextMobile.textContent = "Email Copiata!";
+                setTimeout(() => {
+                    emailTextDesktop.textContent = email;
+                    emailTextMobile.textContent = "Copy Email";
+                }, 2000);
+            });
+        }
+    </script>
 </body>
 </html>

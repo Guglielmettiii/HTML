@@ -20,7 +20,6 @@ body {
 
 /* Sezione sociale con regole specifiche */
 .social-section {
-  margin: 0;
   width: 360px;
   font-size: 24px; /* Ridimensiona il font a 24px */
   display: flex;

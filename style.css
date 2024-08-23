@@ -1,40 +1,61 @@
 body {
    background: radial-gradient(circle at 24.1% 68.8%, rgb(32, 32, 32) 0%, rgb(0, 0, 0) 99.4%);
-    display: block;
+   display: block;
+    
     
     }
 
 
-.nav {
-    display: flex;
-    padding: 0px 195px;
-    justify-content: space-between;
-    align-items: center; 
-    margin-top: 42px;
+    .nav {
+        display: flex;
+        padding: 0px 195px;
+        justify-content: space-between;
+        align-items: center; 
+        margin-top: 42px;
     }
-.nav p {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    
+    .nav p {
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
-.nav .menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 37px;
-    list-style: none;
+    
+    .nav .menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 37px;
+        list-style: none;
     }
-.nav .menu li a {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
+    
+    .nav .menu li {
+        /* Assicura che gli elementi della lista abbiano margini e padding appropriati */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav .menu li a {
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        padding: 10px 20px; /* Aggiungi padding per farlo sembrare un bottone */
+        border: 2px solid #2C2B2B; /* Aggiungi un bordo per simularne il bottone */
+        border-radius: 5px; /* Arrotonda gli angoli del bottone */
+        background-color: transparent; /* Nessun colore di sfondo */
+        transition: background-color 0.3s, color 0.3s; /* Aggiungi una transizione per gli effetti hover */
+    }
+    
+    .nav .menu li a:hover,
+    .nav .menu li a:focus {
+        background-color: #e91e63; /* Colore di sfondo al passaggio del mouse */
+        border: 2px solid #e91e63; /* Aggiungi un bordo per simularne il bottone */
     }
 
 /*____________________________________________________________________________________________________________________________*/
@@ -51,21 +72,30 @@ body {
     flex-wrap: wrap;
     margin-top: 2px;
     margin-bottom: 0px; /* Assicurati che ci sia spazio sotto la presentazione */
-
+    position:relative;
     }
-    
+
+.splineSection{
+    display: flex;
+    position: absolute;
+    left: 800px;
+    bottom: -100px;
+    height: 90%;
+    width: 40%;
+    }
+
 .presentation p{
     color: #FFF;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
-    font-weight: 100; /* Imposta il carattere light per tutto il paragrafo */
+    font-weight: 300; 
     line-height: normal;
     
     }
     .highlight {
     display: inline; /* Imposta inline per evitare interruzioni di riga */
-    font-weight: 900; /* Imposta il carattere bold per la parola "SARA" */
+    font-weight: 800; /* Imposta il carattere bold per la parola "SARA" */
     }
 
 
@@ -843,6 +873,114 @@ box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
     to {opacity: 1}
   }
 
+/*____________________________________________________________________________________________________________________________*/
+
+.contact-me {
+    display: flex;
+    padding: 200px 195px;
+    align-items: flex-start;
+}
+
+.contact-me-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start; /* Allinea il contenuto in alto */
+}
+
+.contact-text {
+    flex: 1;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Allinea il testo in alto */
+}
+
+.contact-me h1 {
+    color: #EEE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 24px;
+}
+
+.contact-me p {
+    color: #EEE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Allinea il modulo a destra */
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d6d6d6;
+    background-color: transparent;
+    color: #EEE;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group label {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: #EEE; /* Colore del placeholder */
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.form-group input:focus + label,
+.form-group textarea:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 12px;
+    font-size: 14px;
+    color: #EEE; /* Cambia colore a bianco quando attivo */
+    background-color: #2C2B2B;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.submit-btn {
+    background-color: #2C2B2B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    align-self: flex-end;
+}
+
+.submit-btn:hover {
+    background-color: #E91E63;
+}
+
+
 
 
 /*____________________________________________________________________________________________________________________________*/
@@ -860,10 +998,17 @@ box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
     .progetto2,
     .progetto3,
     .progetto4,
-    .progetto5
+    .progetto5,
+    .splineSection,
+    .contact-me
      {
         padding-left: calc(195px + ((100vw - 1920px) / 3));
         padding-right: calc(195px + ((100vw - 1920px) / 3));
+
+    }
+    .splineSection {
+
+        left: 750px;
 
     }
 
@@ -986,7 +1131,7 @@ box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
     
     .xoxoN h1, .sunnee h1, .tequila h1, .ecodream h1, .hmi h1 {
         margin-top: 12px;
-        font-size: 42px; /* Imposta una dimensione di font appropriata per mobile */
+        font-size: 42px; 
         margin-bottom: -14px;
     }
     
@@ -1016,6 +1161,42 @@ box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
         height: 520px; 
     }
 
-    @keyframes float {
+    .splineSection {
+        display: none;
     }
+
+    .contact-me {
+        margin-top: 42px;
+        padding: 20px; /* Riduci il padding per i dispositivi mobili */
+    }
+
+    .contact-me-content {
+        flex-direction: column; 
+        align-items: stretch; 
+    }
+
+    .contact-text,
+    .contact-form {
+        width: 100%; 
+        text-align: left; 
+        margin-bottom: 20px; 
+    }
+
+    .contact-form {
+        align-items: stretch; /* Il modulo occupi tutta la larghezza */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%; /* I campi di input e textarea occupino tutta la larghezza */
+        margin-bottom: 15px; /* Spazio tra i campi del modulo */
+    }
+
+    .submit-btn {
+        align-self: left; 
+    }
+
+    .splineSection {
+        display: none;
+        }
 }

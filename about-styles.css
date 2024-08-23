@@ -74,7 +74,7 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    margin-top: 2px;
+    margin-top: 0px;
     margin-bottom: 4px; /* Assicurati che ci sia spazio sotto la presentazione */
 
     }
@@ -84,7 +84,7 @@ nav {
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
-    font-weight: 100; /* Imposta il carattere light per tutto il paragrafo */
+    font-weight: 200; /* Imposta il carattere light per tutto il paragrafo */
     line-height: normal;
     
     }
@@ -104,7 +104,7 @@ nav {
     
     .intro {
     font-size: 32px;
-    font-weight: 100; 
+    font-weight: 400; 
     display: block; /* Assicura che il testo venga visualizzato su una nuova riga */
     }
     
@@ -122,12 +122,12 @@ nav {
     display: inline; /* Mantiene il punto nella stessa riga di "UX UI DESIGNER" */
     }
 
-.splineSection{
+.splineSection2{
     display: flex;
     position: absolute;
     left: 800px;
-    bottom: -0px;
-    height: 90%;
+    bottom: 100px;
+    height: 70%;
     width: 40%;
 
  
@@ -152,7 +152,7 @@ nav {
     font-size: 16px;
     line-height: 1.5;
     margin-right: 50px;
-    font-weight: 100; /* Imposta il carattere light per tutto il paragrafo */
+    font-weight: 200; /* Imposta il carattere light per tutto il paragrafo */
     margin-bottom: 200px;
 }
 
@@ -165,7 +165,7 @@ nav {
     align-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 200px; 
+    margin-bottom: 16px; 
 }
 
 .skills-content h2 {
@@ -178,9 +178,44 @@ nav {
     color: #FFF;
     font-size: 18px;
     margin: 0;
-    font-weight: 100; /* Imposta il carattere light per tutto il paragrafo */
+    font-weight: 200; /* Imposta il carattere light per tutto il paragrafo */
 
 }
+
+
+.skills-tools {
+    
+    flex-direction: column;
+    padding: 24px 195px 8px;
+    align-items: flex-start;
+    align-content: flex-start;
+    
+    flex-wrap: wrap;
+    margin-bottom: 200px; 
+}
+
+.skills-tools h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #FFF; /* Colore del testo dell'intestazione */
+    margin: 0 0 20px;
+}
+
+.skills-tools p {
+    color: #FFF; /* Colore del testo */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.5; /* Spaziatura tra le righe per una migliore leggibilità */
+    margin: 0 auto; /* Centra il paragrafo */
+    text-align: left; /* Allinea il testo a sinistra per un aspetto più naturale */
+}
+
+.skills-tools p strong {
+    color: #E91E63; /* Colore distintivo per i nomi degli strumenti */
+    font-weight: 700; /* Grassetto per i nomi degli strumenti */
+}
+
+
 
 
 /*____________________________________________________________________________________________________________________________*/
@@ -227,7 +262,7 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
     margin: 0 0 24px; /* Margine per separare h1 e p */
@@ -236,7 +271,7 @@ nav {
 .contact-me p {
     color: #EEE;
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
     line-height: 28px;
@@ -246,6 +281,7 @@ nav {
 .contact-icons {
     display: flex;
     gap: 42px; /* Spazio tra le icone */
+    margin-top: 120px;
 }
 
 .contact-icon {
@@ -269,15 +305,16 @@ nav {
     .presentation,
     .splineSection,
     .skills-content,
+    .skills-tools,
     .do,
     .contact-me {
         padding-left: calc(195px + ((100vw - 1920px) / 3));
         padding-right: calc(195px + ((100vw - 1920px) / 3));
     }
 
-    .splineSection {
+    .splineSection2 {
 
-        left: 700px;
+        left: 1140px;
 
     }
 }
@@ -372,6 +409,7 @@ nav {
         padding: 50px 20px 20px;
         margin-bottom: 100px;
     }
+    
 
 
     .break-desktop {
@@ -417,7 +455,7 @@ nav {
         color: #FFF !important; /* Mantiene il colore bianco delle icone al passaggio del mouse, con !important per forzare */
     }
 
-    .splineSection {
+    .splineSection2 {
     display: none;
     }
 
