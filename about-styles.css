@@ -286,7 +286,7 @@ nav {
 }
 
 .contact-icon {
-    color: #949393; /* Colore delle icone */
+    color: #FFF; /* Colore bianco di default per le icone */
     text-decoration: none; /* Rimuove la sottolineatura dai link */
     font-size: 36px; /* Dimensione ingrandita delle icone */
     transition: color 0.3s; /* Transizione per effetto hover */
@@ -295,6 +295,23 @@ nav {
 .contact-icon:hover {
     color: #FFF; /* Colore delle icone al passaggio del mouse */
 }
+
+.contact-icon[href*="mailto"] .fa-envelope:hover {
+    color: #D44638; 
+}
+
+.contact-icon[href*="behance"] .fa-behance:hover {
+    color: #1769FF; 
+}
+
+.contact-icon[href*="linkedin"] .fa-linkedin:hover {
+    color: #0077B5; 
+}
+
+.contact-icon[href*="discord"] .fa-discord:hover {
+    color: #7289DA; 
+}
+
 
 
 /*____________________________________________________________________________________________________________________________*/
