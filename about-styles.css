@@ -213,6 +213,7 @@ nav {
 .skills-tools p strong {
     color: #E91E63; /* Colore distintivo per i nomi degli strumenti */
     font-weight: 700; /* Grassetto per i nomi degli strumenti */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 
