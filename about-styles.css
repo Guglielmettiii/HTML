@@ -286,10 +286,10 @@ nav {
 }
 
 .contact-icon {
-    color: #FFF; /* Colore bianco di default per le icone */
-    text-decoration: none; /* Rimuove la sottolineatura dai link */
-    font-size: 36px; /* Dimensione ingrandita delle icone */
-    transition: color 0.3s; /* Transizione per effetto hover */
+    color: #FFF; 
+    text-decoration: none; 
+    font-size: 36px; 
+    transition: color 0.3s; 
 }
 
 .contact-icon:hover {
