@@ -142,15 +142,13 @@ body {
 
 .About_me{
     display: flex;
-    padding: 24px 195px 100px;
+    padding: 192px 195px 8px;
     align-items: flex-start;
     align-content: flex-start;
     gap: 48px;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 0px;
-    margin-bottom: 32px; /* Assicurati che ci sia spazio sotto la presentazione */
-    position:relative;
+    margin-bottom: 300px;
     }
 
 
@@ -1038,6 +1036,7 @@ box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
     .progetto4,
     .progetto5,
     .splineSection,
+    .About_me,
     .contact-me
      {
         padding-left: calc(195px + ((100vw - 1920px) / 3));
@@ -1049,6 +1048,7 @@ box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
         left: 750px;
 
     }
+   
 
     }
 
@@ -1237,4 +1237,24 @@ box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
     .splineSection {
         display: none;
         }
+
+
+    .About_me {
+            padding: 16px 20px 40px; /* Riduci il padding per schermi più piccoli */
+            gap: 24px; /* Riduci il gap tra gli elementi */
+            margin-bottom: 20px; /* Riduci il margine inferiore */
+        }
+        
+    .About_me h2 {
+            font-size: 24px; /* Riduci la dimensione del font per schermi più piccoli */
+            line-height: 1.4; /* Migliora la leggibilità su schermi più piccoli */
+        }
+        
+        .About_me p {
+            font-size: 16px; /* Riduci la dimensione del font per schermi più piccoli */
+            line-height: 24px; /* Migliora la leggibilità su schermi più piccoli */
+        }
+        
 }
+
+
