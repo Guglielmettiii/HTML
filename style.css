@@ -140,6 +140,44 @@ body {
 
 /*____________________________________________________________________________________________________________________________*/
 
+.About_me{
+    display: flex;
+    padding: 24px 195px 100px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 48px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 32px; /* Assicurati che ci sia spazio sotto la presentazione */
+    position:relative;
+    }
+
+
+
+.About_me h2{
+    color: #EEE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.About_me p{
+    color: #EEE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 28px;
+    margin: 0;
+}
+
+/*____________________________________________________________________________________________________________________________*/
+
+
 /* progetto 1 */
 
 
