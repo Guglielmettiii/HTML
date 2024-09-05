@@ -316,7 +316,7 @@ width: 530px;
 height: 379px;
 flex-shrink: 0;
 border-radius: 2px;
-background: url(xoxo.png) lightgray -63.267px -50.41px / 129.637% 133.218% no-repeat;
+background: url('Assets/images/xoxo.png') lightgray -63.267px -50.41px / 129.637% 133.218% no-repeat;
 box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
 
 }
@@ -450,7 +450,7 @@ width: 530px;
 height: 379px;
 flex-shrink: 0;
 border-radius: 2px;
-background: url(sunne.png) lightgray 50% / cover no-repeat;
+background: url('Assets/images/sunne.png') lightgray 50% / cover no-repeat;
 box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
 
 }
@@ -585,7 +585,7 @@ width: 530px;
 height: 379px;
 flex-shrink: 0;
 border-radius: 2px;
-background: url(tequila.png) lightgray 50% / cover no-repeat;
+background: url('Assets/images/tequila.png') lightgray 50% / cover no-repeat;
 box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
 }
 
@@ -720,7 +720,7 @@ width: 530px;
 height: 379px;
 flex-shrink: 0;
 border-radius: 2px;
-background: url(ecodream.png) lightgray 50% / cover no-repeat;
+background: url('Assets/images/ecodream.png') lightgray 50% / cover no-repeat;
 box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
 }
 
@@ -854,7 +854,6 @@ width: 530px;
 height: 379px;
 flex-shrink: 0;
 border-radius: 2px;
-background: url(hmi.png) lightgray 50% / cover no-repeat;
 box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
 }
 
