@@ -854,6 +854,7 @@ width: 530px;
 height: 379px;
 flex-shrink: 0;
 border-radius: 2px;
+background: url('Assets/images/.hmi.png') lightgray 50% / cover no-repeat;
 box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
 }
 
@@ -1166,7 +1167,7 @@ box-shadow: 20px -2px 25.3px 6px rgba(44, 43, 43, 0.25);
     }
 
     
-    .xoxoN h1, .sunnee h1, .tequila h1, .ecodream h1, .hmi h1 {
+    .xoxoN h3, .sunnee h3, .tequila h3, .ecodream h3, .hmi h3 {
         margin-top: 12px;
         font-size: 42px; 
         margin-bottom: -14px;

@@ -258,7 +258,7 @@ nav {
     flex-direction: column; /* Disporre l'h1 e il paragrafo in colonna */
 }
 
-.contact-me h1 {
+.contact-me h2 {
     color: #EEE;
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
